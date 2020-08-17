@@ -16,10 +16,18 @@ body {
     align-items: center;
 }
 
+.divCog {
+    position: absolute;
+    top: 30%;
+}
+
 .fa-cog {
     margin-left: .3rem;
-    font-size: 1.2rem;
-    animation: rotate ease 3s infinite;
+    font-size: 18rem;
+    animation: rotate linear 10s infinite;
+    color: black;
+    margin: 0;
+    opacity: .15;
 }
 @keyframes rotate {
     0% {transform: rotate(0deg)}
