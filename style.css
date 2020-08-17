@@ -19,7 +19,12 @@ body {
 .divCog {
     position: absolute;
     top: 30%;
+    animation: fadeIn linear 5s;
 }
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: .15}
+    }
 
 .fa-cog {
     margin-left: .3rem;
